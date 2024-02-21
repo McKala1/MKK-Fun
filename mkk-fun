@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Pink and Girly Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe6f2; /* light pink */
+            color: #ff66cc; /* pink */
+        }
+        header {
+            background-color: #ff66cc; /* pink */
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        nav {
+            background-color: #ff99cc; /* light pink */
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #660066; /* purple */
+            padding: 10px;
+            margin: 0 5px;
+        }
+        nav a:hover {
+            background-color: #ff66cc; /* pink */
+            color: #fff; /* white */
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #ff66cc; /* pink */
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Super Pink and Girly Blog</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+    </nav>
+    <section>
+        <h2>Welcome to our pink and girly blog!</h2>
+        <p>This is a place where we celebrate everything pink and girly. From fashion to beauty tips, we've got you covered.</p>
+        <p>Stay tuned for our latest blog posts!</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Super Pink and Girly Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
