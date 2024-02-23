@@ -202,19 +202,25 @@
         <h2>Welcome to my pink and girly blog!</h2>
         <p>This is a place where we celebrate everything pink and girly. From flowers to cute animals, this is a magical land that has got you
             covered beautiful!!!!</p>
-        <p>Stay tuned for my latest blog posts!</p>
+        <p>Stay tuned for my latest posts!</p>
     </section>
     <footer>
         <p>&copy; 2024 Super Pink and Girly Blog. All rights reserved.</p>
     </footer>
 
-    <!-- Interactive pop-up -->
-    <div id="popup" class="popup">
-        <span class="close" onclick="closePopup()">&times;</span>
-        <h2>Cute Baby Pink Mouse</h2>
-        <img src="pink_mouse.jpg" alt="Pink Mouse">
-        <p>This is an adorable baby pink mouse!</p>
-    </div>
+<!-- Interactive pop-up -->
+<div id="popup" class="popup">
+    <span class="close" onclick="closePopup()">&times;</span>
+    <h2>Cute Baby Pink Mouse</h2>
+    <img src="pink_mouse.jpg" alt="Pink Mouse">
+    <p>This is an adorable baby pink mouse!</p>
+    <button onclick="closePopup()">Close</button>
+</div>
+
+<!-- Show Popup button styled as a mouse emoji -->
+<button id="showPopupButton" onclick="showPopup()">
+    🐭 Show Popup
+</button>
 
     <!-- Barbie fairy music background -->
     <audio autoplay loop>
