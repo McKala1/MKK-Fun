@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, #ff7675, #74b9ff, #55efc4, #fd79a8, #ffb142);
+            animation: rainbow-background 10s ease infinite;
+        }
+
+        @keyframes rainbow-background {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        h1 {
+            font-family: 'Arial', sans-serif;
+            font-size: 3rem;
+            text-align: center;
+            animation: change-colors 5s infinite linear;
+        }
+
+        @keyframes change-colors {
+            0% { color: #ff7675; } /* Red */
+            20% { color: #74b9ff; } /* Blue */
+            40% { color: #55efc4; } /* Green */
+            60% { color: #fd79a8; } /* Pink */
+            80% { color: #ffb142; } /* Orange */
+            100% { color: #ff7675; } /* Back to Red */
+        }
+
+        .board {
+            display: flex;
+            flex-wrap: wrap;
+            width: 80%;
+            max-width: 800px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            width: 120px;
+            height: 120px;
+            margin: 10px;
+            background-color: #f8c291;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+            cursor: pointer; /* Make the card clickable */
+            transition: transform 0.5s ease; /* Add smooth transition for flipping effect */
+        }
+
+        .card img {
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="animated heartBeat infinite">Memory Game</h1>
+    <div>
+        <label for="difficulty">Difficulty:</label>
+        <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+    </div>
+    <div>
+        <button id="shuffle-btn">Shuffle Cards</button>
+        <span id="timer">Timer: 0s</span>
+    </div>
+    <div class="board">
+        <!-- Placeholder for card 1 -->
+        <div class="card">1</div>
+        <!-- Placeholder for card 2 -->
+        <div class="card">2</div>
+        <!-- Placeholder for card 3 -->
+        <div class="card">3</div>
+        <!-- Placeholder for card 4 -->
+        <div class="card">4</div>
+        <!-- Placeholder for card 5 -->
+        <div class="card">5</div>
+        <!-- Placeholder for card 6 -->
+        <div class="card">6</div>
+        <!-- Placeholder for card 7 -->
+        <div class="card">7</div>
+        <!-- Placeholder for card 8 -->
+        <div class="card">8</div>
+        <!-- Placeholder for card 9 -->
+        <div class="card">9</div>
+        <!-- Placeholder for card 10 -->
+        <div class="card">10</div>
+        <!-- Placeholder for card 11 -->
+        <div class="card">11</div>
+        <!-- Placeholder for card 12 -->
+        <div class="card">12</div>
+        <!-- Placeholder for card 13 -->
+        <div class="card">13</div>
+        <!-- Placeholder for card 14 -->
+        <div class="card">14</div>
+        <!-- Placeholder for card 15 -->
+        <div class="card">15</div>
+        <!-- Placeholder for card 16 -->
+        <div class="card">16</div>
+    </div>
+
+    <script>
+        // Add JavaScript for shuffling cards, countdown timer, etc.
+    </script>
+</body>
+</html>
